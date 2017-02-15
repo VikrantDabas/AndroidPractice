@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="main_activity_heading">Welcome to Trivia App</string>
+    <string name="main_activity_load">Loading Trivia App</string>
+    <string name="main_activity_ready">Trivia Ready</string>
+    <string name="main_activity_exit">Exit</string>
+    <string name="main_activity_start">Start Trivia</string>
+    <string name="trivia_activity_title">Trivia</string>
+    <string name="trivia_activity_load">Loading Image</string>
+    <string name="trivia_activity_prev">Previous</string>
+    <string name="trivia_activity_next">Next</string>
+    <string name="trivia_activity_finish">Finish</string>
+    <string name="stats_activity_title">Trivia Stats</string>
+    <string name="stats_activity_heading">Correct Answers</string>
+    <string name="stats_activity_seekbar_label">Your Performance:</string>
+    <string name="stats_activity_finish">Finish</string>
+</resources>

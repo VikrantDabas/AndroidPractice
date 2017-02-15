@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CNN News</string>
+    <string name="button_get">Get News</string>
+    <string name="load">Loading</string>
+    <string name="desc">Description:</string>
+    <string name="Finish">Finish</string>
+</resources>

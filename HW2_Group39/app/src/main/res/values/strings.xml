@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">HW2_Group39</string>
+    <string name="main_activity">My Favorite Movies</string>
+    <string name="add_activity">Add Movie</string>
+    <string name="edit_activity">Edit Movie</string>
+    <string name="display_year_activity">Movies by Year</string>
+    <string name="display_rating_activity">Movies by Rating</string>
+
+    <string name="show_list_rating">Show List by Rating</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="edit">Edit</string>
+    <string name="delete_movie">Delete Movie</string>
+    <string name="show_list_year">Show List by Year</string>
+
+    <string name="add_activity_name">Name:</string>
+    <string name="add_activity_description">Description:</string>
+    <string name="add_activity_genre">Genre:</string>
+    <string name="add_activity_rating">Rating:</string>
+    <string name="add_activity_year">Year:</string>
+    <string name="add_activity_imdb">IMDB:</string>
+    <string name="add_activity_add_btn">Add Movie</string>
+    <string-array name="add_activity_genres">
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+    <string name="edit_activity_save_btn">Save Changes</string>
+    <string name="Finish">Finish</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="textviewnewssource">Select News Source:</string>
+    <string name="buttonnews">Get News</string>
+    <string name="editTextNewsTitle">News:</string>
+    <string name="editTextAuthor">Author:</string>
+    <string name="editTextPublish">Published On:</string>
+    <string name="textViewDesc">Description:</string>
+    <string name="buttonfinish">Finish</string>
+    <string name="textViewTitle">News:</string>
+    <string name="textViewAuthor">Author:</string>
+    <string name="textViewPublish">Published On:</string>
+    <string-array name="newsArray">
+        <item>BBC</item>
+        <item>CNN</item>
+        <item>BuzzFeed</item>
+        <item>ESPN</item>
+        <item>Sky News</item>
+    </string-array>
+</resources>

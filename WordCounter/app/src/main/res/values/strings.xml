@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Word Counter</string>
+    <string name="second_activity_name">Words</string>
+    <string name="label_top">Add Words to search:</string>
+    <string name="btn_text">Search</string>
+    <string name="label_checkBox">Match Cases</string>
+    <string name="second_label_top">Word frequencies:</string>
+    <string name="done">Finish</string>
+</resources>

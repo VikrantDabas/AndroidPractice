@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="amount_entered">Input Amount</string>
+    <string name="from_australia">AUD</string>
+    <string name="from_canada">CAD</string>
+    <string name="from_india">INR</string>
+    <string name="convert_to">Convert to</string>
+    <string name="to_usa">USD</string>
+    <string name="to_britain">GBP</string>
+    <string name="convert">Convert</string>
+    <string name="reset">Clear</string>
+</resources>

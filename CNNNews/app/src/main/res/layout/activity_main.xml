@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vikrant.cnnnews.MainActivity">
+
+    <Button
+        android:text="@string/button_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/controlBar">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/first"
+            android:id="@+id/imageButtonFirst"
+            android:layout_weight="2"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/previous"
+            android:id="@+id/imageButtonPrevious"
+            android:layout_weight="2"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:text="@string/Finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonFinish"
+            android:layout_weight=".01" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/next"
+            android:id="@+id/imageButtonNext"
+            android:layout_weight="2"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/last"
+            android:id="@+id/imageButtonLast"
+            android:layout_weight="2"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <ProgressBar
+        style="@android:style/Widget.Material.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar2"
+        android:progressTint="@android:color/holo_blue_bright"
+        android:progressDrawable="@android:color/holo_blue_bright"
+        android:indeterminate="true"
+        android:foregroundGravity="center" />
+
+    <TextView
+        android:text="@string/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textViewLoading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textStyle="normal|bold"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_above="@+id/controlBar"
+        android:elevation="14dp"
+        android:id="@+id/ll">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/imageView"
+            android:maxHeight="500dp"
+            android:elevation="0dp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border"
+            android:id="@+id/scrollView"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTitle" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewDate" />
+
+                <TextView
+                    android:text="@string/desc"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewDescBody" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

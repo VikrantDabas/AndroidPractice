@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name="activity_2_name">Generated Passwords</string>
+    <string name="label_thread">For Thread: </string>
+    <string name="label_asyncTask">For AsyncTask: </string>
+    <string name="button_label">Generate</string>
+    <string name="label_length">Select Password Length: </string>
+    <string name="label_count">Select Password Count: </string>
+    <string name="PassUsingThreads">Passwords Generated using Threads:</string>
+    <string name="PassUsingAsync">Passwords Genrated using AsyncTask:</string>
+    <string name="Finish_Showpass">Finish</string>
+</resources>
