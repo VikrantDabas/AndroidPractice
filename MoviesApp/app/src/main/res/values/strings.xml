@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HW2_Group39</string>
+    <string name="app_name">My Movies</string>
     <string name="main_activity">My Favorite Movies</string>
     <string name="add_activity">Add Movie</string>
     <string name="edit_activity">Edit Movie</string>
